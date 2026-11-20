@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000001 /* CosmosCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000001 /* CosmosCatalogApp.swift */; };
+		B00000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000002 /* RootView.swift */; };
+		B00000003 /* CatalogTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000003 /* CatalogTokens.swift */; };
+		B00000004 /* FormPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000004 /* FormPrimitives.swift */; };
+		B00000005 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000005 /* SharedComponents.swift */; };
+		B00000006 /* CatalogHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000006 /* CatalogHomeView.swift */; };
+		B00000007 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000007 /* PlanetDetailView.swift */; };
+		B00000008 /* FieldNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000008 /* FieldNotesView.swift */; };
+		B00000009 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000009 /* SplashView.swift */; };
+		B00000010 /* ObservingTargetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000010 /* ObservingTargetsView.swift */; };
+		B00000011 /* FieldNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000011 /* FieldNote.swift */; };
+		B00000012 /* ObservingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012 /* ObservingTarget.swift */; };
+		B00000013 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000013 /* Planet.swift */; };
+		B00000014 /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000014 /* CatalogStore.swift */; };
+		B00000015 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000015 /* Services.swift */; };
+		B00000017 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F00000017 /* Localizable.xcstrings */; };
+		B00000016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000016 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000000 /* CosmosCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmosCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000001 /* CosmosCatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosCatalogApp.swift; sourceTree = "<group>"; };
+		F00000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F00000003 /* CatalogTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTokens.swift; sourceTree = "<group>"; };
+		F00000004 /* FormPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPrimitives.swift; sourceTree = "<group>"; };
+		F00000005 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		F00000006 /* CatalogHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogHomeView.swift; sourceTree = "<group>"; };
+		F00000007 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		F00000008 /* FieldNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldNotesView.swift; sourceTree = "<group>"; };
+		F00000009 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F00000010 /* ObservingTargetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingTargetsView.swift; sourceTree = "<group>"; };
+		F00000011 /* FieldNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldNote.swift; sourceTree = "<group>"; };
+		F00000012 /* ObservingTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingTarget.swift; sourceTree = "<group>"; };
+		F00000013 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		F00000014 /* CatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogStore.swift; sourceTree = "<group>"; };
+		F00000015 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		F00000017 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F00000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		G00000019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000001 = {
+			isa = PBXGroup;
+			children = (
+				G00000013 /* CosmosCatalog */,
+				G00000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00000000 /* CosmosCatalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G00000013 /* CosmosCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				G00000003 /* App */,
+				G00000004 /* DesignSystem */,
+				G00000006 /* Features */,
+				G00000011 /* Models */,
+				G00000012 /* Services */,
+				F00000016 /* Assets.xcassets */,
+				F00000017 /* Localizable.xcstrings */,
+			);
+			path = CosmosCatalog;
+			sourceTree = "<group>";
+		};
+		G00000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F00000001 /* CosmosCatalogApp.swift */,
+				F00000002 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G00000004 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F00000003 /* CatalogTokens.swift */,
+				G00000005 /* Components */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		G00000005 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F00000004 /* FormPrimitives.swift */,
+				F00000005 /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		G00000006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				G00000007 /* Catalog */,
+				G00000008 /* Notes */,
+				G00000009 /* Splash */,
+				G00000010 /* Targets */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		G00000007 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				F00000006 /* CatalogHomeView.swift */,
+				F00000007 /* PlanetDetailView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		G00000008 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				F00000008 /* FieldNotesView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		G00000009 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F00000009 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		G00000010 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				F00000010 /* ObservingTargetsView.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		G00000011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F00000011 /* FieldNote.swift */,
+				F00000012 /* ObservingTarget.swift */,
+				F00000013 /* Planet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G00000012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F00000014 /* CatalogStore.swift */,
+				F00000015 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T00000001 /* CosmosCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00000003 /* Build configuration list for PBXNativeTarget "CosmosCatalog" */;
+			buildPhases = (
+				P00000001 /* Sources */,
+				G00000019 /* Frameworks */,
+				P00000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmosCatalog;
+			productName = CosmosCatalog;
+			productReference = F00000000 /* CosmosCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C00000001 /* Build configuration list for PBXProject "CosmosCatalog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00000001;
+			productRefGroup = G00000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T00000001 /* CosmosCatalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		P00000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000017 /* Localizable.xcstrings in Resources */,
+				B00000016 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P00000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000001 /* CosmosCatalogApp.swift in Sources */,
+				B00000002 /* RootView.swift in Sources */,
+				B00000003 /* CatalogTokens.swift in Sources */,
+				B00000004 /* FormPrimitives.swift in Sources */,
+				B00000005 /* SharedComponents.swift in Sources */,
+				B00000006 /* CatalogHomeView.swift in Sources */,
+				B00000007 /* PlanetDetailView.swift in Sources */,
+				B00000008 /* FieldNotesView.swift in Sources */,
+				B00000009 /* SplashView.swift in Sources */,
+				B00000010 /* ObservingTargetsView.swift in Sources */,
+				B00000011 /* FieldNote.swift in Sources */,
+				B00000012 /* ObservingTarget.swift in Sources */,
+				B00000013 /* Planet.swift in Sources */,
+				B00000014 /* CatalogStore.swift in Sources */,
+				B00000015 /* Services.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prompt.CosmosCatalogVaried;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C00000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prompt.CosmosCatalogVaried;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00000001 /* Build configuration list for PBXProject "CosmosCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000010 /* Debug */,
+				C00000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00000003 /* Build configuration list for PBXNativeTarget "CosmosCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000012 /* Debug */,
+				C00000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P00000000 /* Project object */;
+}

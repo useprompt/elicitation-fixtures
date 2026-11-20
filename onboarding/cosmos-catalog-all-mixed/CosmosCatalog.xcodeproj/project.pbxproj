@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000001 /* CosmosCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000002 /* CosmosCatalogApp.swift */; };
+		B00000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000003 /* RootView.swift */; };
+		B00000003 /* AlternateTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000004 /* AlternateTokens.swift */; };
+		B00000004 /* CatalogTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000005 /* CatalogTokens.swift */; };
+		B00000005 /* AlternateFormPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000006 /* AlternateFormPrimitives.swift */; };
+		B00000006 /* FormPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000007 /* FormPrimitives.swift */; };
+		B00000007 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000008 /* SharedComponents.swift */; };
+		B00000008 /* CatalogHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000009 /* CatalogHomeView.swift */; };
+		B00000009 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000010 /* PlanetDetailView.swift */; };
+		B00000010 /* FieldNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000011 /* FieldNotesView.swift */; };
+		B00000011 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000012 /* SplashView.swift */; };
+		B00000012 /* ObservingTargetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000013 /* ObservingTargetsView.swift */; };
+		B00000013 /* LocalizationHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000014 /* LocalizationHub.swift */; };
+		B00000014 /* OutsideSwiftUIBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000015 /* OutsideSwiftUIBindings.swift */; };
+		B00000015 /* FieldNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000016 /* FieldNote.swift */; };
+		B00000016 /* ObservingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000017 /* ObservingTarget.swift */; };
+		B00000017 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000018 /* Planet.swift */; };
+		B00000018 /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000019 /* CatalogStore.swift */; };
+		B00000019 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000020 /* Services.swift */; };
+		B00000020 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F00000021 /* Localizable.xcstrings */; };
+		B00000021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000022 /* Assets.xcassets */; };
+		B00000022 /* LegacySidecar.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00000023 /* LegacySidecar.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00000001 /* CosmosCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmosCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000002 /* CosmosCatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosCatalogApp.swift; sourceTree = "<group>"; };
+		F00000003 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F00000004 /* AlternateTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateTokens.swift; sourceTree = "<group>"; };
+		F00000005 /* CatalogTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTokens.swift; sourceTree = "<group>"; };
+		F00000006 /* AlternateFormPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateFormPrimitives.swift; sourceTree = "<group>"; };
+		F00000007 /* FormPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPrimitives.swift; sourceTree = "<group>"; };
+		F00000008 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		F00000009 /* CatalogHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogHomeView.swift; sourceTree = "<group>"; };
+		F00000010 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		F00000011 /* FieldNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldNotesView.swift; sourceTree = "<group>"; };
+		F00000012 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F00000013 /* ObservingTargetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingTargetsView.swift; sourceTree = "<group>"; };
+		F00000014 /* LocalizationHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHub.swift; sourceTree = "<group>"; };
+		F00000015 /* OutsideSwiftUIBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideSwiftUIBindings.swift; sourceTree = "<group>"; };
+		F00000016 /* FieldNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldNote.swift; sourceTree = "<group>"; };
+		F00000017 /* ObservingTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingTarget.swift; sourceTree = "<group>"; };
+		F00000018 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		F00000019 /* CatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogStore.swift; sourceTree = "<group>"; };
+		F00000020 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		F00000021 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F00000022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00000023 /* LegacySidecar.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = LegacySidecar.strings; path = LegacySidecar.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		G00000019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000014 = {
+			isa = PBXGroup;
+			children = (
+				G00000001 /* CosmosCatalog */,
+				G00000015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G00000015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00000001 /* CosmosCatalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G00000001 /* CosmosCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				G00000002 /* App */,
+				G00000003 /* DesignSystem */,
+				G00000008 /* en.lproj */,
+				G00000004 /* Features */,
+				G00000005 /* Localization */,
+				G00000006 /* Models */,
+				G00000007 /* Services */,
+				F00000022 /* Assets.xcassets */,
+				F00000021 /* Localizable.xcstrings */,
+			);
+			path = CosmosCatalog;
+			sourceTree = "<group>";
+		};
+		G00000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F00000002 /* CosmosCatalogApp.swift */,
+				F00000003 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G00000003 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				G00000009 /* Components */,
+				F00000004 /* AlternateTokens.swift */,
+				F00000005 /* CatalogTokens.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		G00000004 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				G00000010 /* Catalog */,
+				G00000011 /* Notes */,
+				G00000012 /* Splash */,
+				G00000013 /* Targets */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		G00000005 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F00000014 /* LocalizationHub.swift */,
+				F00000015 /* OutsideSwiftUIBindings.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		G00000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F00000016 /* FieldNote.swift */,
+				F00000017 /* ObservingTarget.swift */,
+				F00000018 /* Planet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G00000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F00000019 /* CatalogStore.swift */,
+				F00000020 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G00000008 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F00000023 /* LegacySidecar.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		G00000009 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F00000006 /* AlternateFormPrimitives.swift */,
+				F00000007 /* FormPrimitives.swift */,
+				F00000008 /* SharedComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		G00000010 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				F00000009 /* CatalogHomeView.swift */,
+				F00000010 /* PlanetDetailView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		G00000011 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				F00000011 /* FieldNotesView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		G00000012 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F00000012 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		G00000013 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				F00000013 /* ObservingTargetsView.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		G00000016 /* CosmosCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G00000022 /* Build configuration list for PBXNativeTarget "CosmosCatalog" */;
+			buildPhases = (
+				G00000017 /* Sources */,
+				G00000019 /* Frameworks */,
+				G00000018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmosCatalog;
+			productName = CosmosCatalog;
+			productReference = F00000001 /* CosmosCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		G00000020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					G00000016 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = G00000021 /* Build configuration list for PBXProject "CosmosCatalog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00000014;
+			productRefGroup = G00000015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				G00000016 /* CosmosCatalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		G00000018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000020 /* Localizable.xcstrings in Resources */,
+				B00000021 /* Assets.xcassets in Resources */,
+				B00000022 /* LegacySidecar.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		G00000017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000001 /* CosmosCatalogApp.swift in Sources */,
+				B00000002 /* RootView.swift in Sources */,
+				B00000003 /* AlternateTokens.swift in Sources */,
+				B00000004 /* CatalogTokens.swift in Sources */,
+				B00000005 /* AlternateFormPrimitives.swift in Sources */,
+				B00000006 /* FormPrimitives.swift in Sources */,
+				B00000007 /* SharedComponents.swift in Sources */,
+				B00000008 /* CatalogHomeView.swift in Sources */,
+				B00000009 /* PlanetDetailView.swift in Sources */,
+				B00000010 /* FieldNotesView.swift in Sources */,
+				B00000011 /* SplashView.swift in Sources */,
+				B00000012 /* ObservingTargetsView.swift in Sources */,
+				B00000013 /* LocalizationHub.swift in Sources */,
+				B00000014 /* OutsideSwiftUIBindings.swift in Sources */,
+				B00000015 /* FieldNote.swift in Sources */,
+				B00000016 /* ObservingTarget.swift in Sources */,
+				B00000017 /* Planet.swift in Sources */,
+				B00000018 /* CatalogStore.swift in Sources */,
+				B00000019 /* Services.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G00000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G00000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G00000025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cosmos Catalog";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.useprompt.fixtures.cosmoscatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G00000026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cosmos Catalog";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.useprompt.fixtures.cosmoscatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G00000021 /* Build configuration list for PBXProject "CosmosCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G00000023 /* Debug */,
+				G00000024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G00000022 /* Build configuration list for PBXNativeTarget "CosmosCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G00000025 /* Debug */,
+				G00000026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = G00000020 /* Project object */;
+}
